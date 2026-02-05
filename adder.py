@@ -1,3 +1,8 @@
-def add_numbers(a, b):
+def adder(num1, num2):
 
-    return a + b
+    return num1 + num2
+
+if __name__ == '__main__':
+    print(adder(36,64))
+
+
